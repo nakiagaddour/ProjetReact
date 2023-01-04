@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+<Question ID="3" Shortcut="chapter 3" Order="" ElementType="chapter" >
+<LongCaption><Question ID="2" Shortcut="chapter 2" Order="" ElementType="chapter" ></LongCaption>
+</Question>
+<LongCaption><Question ID="1" Shortcut="chapter 1" Order="" ElementType="chapter" ></LongCaption>
+</Question>
+<LongCaption># dependencies</LongCaption>
+</Question>
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
